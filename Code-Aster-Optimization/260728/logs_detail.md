@@ -13,6 +13,7 @@
 - 설정만 바꿔서 927초를 538초(MPI, 결과 비트 동일)까지, PETSc 반복 솔버로는 405~459초까지 줄였다. 솔버 밖 파이프라인에서는 mesh-only로 불필요한 ANSYS 재솔브를 걷어냈다.
 - 대체 판정은 아직 못 내린다. 응력장은 ANSYS와 1% 이내로 일치하지만 계면 peak가 +26%로 벌어져 있고(DIVERTOR-174), 속도도 ANSYS가 라이선스 상한인 4코어에서 내는 316초에 아직 못 미친다.
 
+code review: https://github.com/EnableFusion-AI/DesignCore/pull/210/changes
 ---
 
 ## 1. 무엇을, 왜
